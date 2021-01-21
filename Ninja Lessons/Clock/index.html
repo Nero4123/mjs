@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <style>
+
+        * {
+            box-sizing: border-box;
+            
+            
+        }
+
+        .clock{
+            
+            padding: 0.5em 2em;
+            font-family:'Orbitron';
+            text-align:center;
+            display:inline-block;
+            z-index:1;
+            color:rgb(236, 11, 11);
+            background-color:black;
+            border: 3px solid #fff;
+            overflow:auto;
+            
+            
+        }
+
+        .box{
+            background-image: linear-gradient(to right top, rgba(233, 241, 243, 0.9), rgba(48, 43, 43, .9));
+            display:inline-block;
+            padding: 0.5em 2em;
+            border: 10px solid #000;
+            z-index:-1;
+            box-shadow: 3px 3px 3px;
+            overflow:auto;
+            
+           
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+<div class="clock">
+    <h2></h2>
+</div>
+</div>
+<script src = "clock.js"></script>
+</body>
+</html>
